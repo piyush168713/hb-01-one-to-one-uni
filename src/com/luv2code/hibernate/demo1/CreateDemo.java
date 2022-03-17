@@ -42,7 +42,6 @@ public class CreateDemo {
             // save the instructor
             //
             // ** Note: this will ALSO save the details object because of CascadeType.ALL
-            //
             session.save(tempInstructor);
 
             // commit transaction
